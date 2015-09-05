@@ -243,6 +243,7 @@
     SUBDIR += lrng
     SUBDIR += ltl
     SUBDIR += ltl2ba
+    SUBDIR += lua-torch
     SUBDIR += lybniz
     SUBDIR += mathomatic
     SUBDIR += matio
