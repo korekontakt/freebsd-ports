@@ -1401,6 +1401,7 @@
     SUBDIR += lua-lpeg51
     SUBDIR += lua-luarocks
     SUBDIR += lua-lunit
+    SUBDIR += lua-paths
     SUBDIR += lua-penlight
     SUBDIR += lua-posix
     SUBDIR += lua-pty
