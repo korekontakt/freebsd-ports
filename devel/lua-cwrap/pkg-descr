@@ -1,0 +1,5 @@
+CWrap helps you automate the generation of Lua/C wrappers around
+existing C functions, such that these functions would be callable from
+Lua.
+
+WWW: https://github.com/torch/cwrap

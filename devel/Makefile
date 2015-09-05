@@ -1394,6 +1394,7 @@
     SUBDIR += lua-bitlib
     SUBDIR += lua-bitop
     SUBDIR += lua-cjson
+    SUBDIR += lua-cwrap
     SUBDIR += lua-gettext
     SUBDIR += lua-lgi
     SUBDIR += lua-lpeg
