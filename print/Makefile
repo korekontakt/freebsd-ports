@@ -131,6 +131,7 @@
     SUBDIR += lout
     SUBDIR += lpr-wrapper
     SUBDIR += lprps
+    SUBDIR += lua-dok
     SUBDIR += lyx
     SUBDIR += magicfilter
     SUBDIR += makeindex
