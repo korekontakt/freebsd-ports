@@ -1,0 +1,5 @@
+bin/th
+%%LUA_MODLIBDIR%%/readline.so
+%%LUA_MODSHAREDIR%%/trepl/colorize.lua
+%%LUA_MODSHAREDIR%%/trepl/colors.lua
+%%LUA_MODSHAREDIR%%/trepl/init.lua

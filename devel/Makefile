@@ -1408,6 +1408,7 @@
     SUBDIR += lua-pty
     SUBDIR += lua-sys
     SUBDIR += lua-sysctl
+    SUBDIR += lua-trepl
     SUBDIR += lua-xlua
     SUBDIR += luabind
     SUBDIR += luafilesystem
