@@ -1,5 +1,5 @@
---- lib/TH/THGeneral.c.orig	2015-08-19 14:44:08 UTC
-+++ lib/TH/THGeneral.c
+--- THGeneral.c.orig	2015-08-19 14:44:08 UTC
++++ THGeneral.c
 @@ -5,8 +5,11 @@
  #define __thread
  #endif

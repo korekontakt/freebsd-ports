@@ -1,0 +1,6 @@
+Torch is the main package in Torch7 where data structures for
+multi-dimensional tensors and mathematical operations over these are
+defined. Additionally, it provides many utilities for accessing files,
+serializing objects of arbitrary types and other useful utilities.
+
+WWW: https://github.com/torch/torch7

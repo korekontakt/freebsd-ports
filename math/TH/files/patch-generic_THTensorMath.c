@@ -1,7 +1,7 @@
 https://github.com/torch/torch7/issues/355
 
---- lib/TH/generic/THTensorMath.c.orig	2015-08-19 14:44:08 UTC
-+++ lib/TH/generic/THTensorMath.c
+--- generic/THTensorMath.c.orig	2015-08-19 14:44:08 UTC
++++ generic/THTensorMath.c
 @@ -300,7 +300,7 @@ real THTensor_(minall)(THTensor *tensor)
                    if(!(value >= theMin))
                    {

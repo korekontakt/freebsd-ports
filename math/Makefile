@@ -46,6 +46,7 @@
     SUBDIR += R-cran-stabledist
     SUBDIR += R-cran-xts
     SUBDIR += R-cran-zoo
+    SUBDIR += TH
     SUBDIR += aamath
     SUBDIR += abacus
     SUBDIR += abakus
