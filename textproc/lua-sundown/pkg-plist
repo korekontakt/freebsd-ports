@@ -1,0 +1,8 @@
+bin/mdcat
+%%LUA_MODLIBDIR%%/libsundown.so
+%%LUA_MODSHAREDIR%%/sundown/ascii.lua
+%%LUA_MODSHAREDIR%%/sundown/env.lua
+%%LUA_MODSHAREDIR%%/sundown/html.lua
+%%LUA_MODSHAREDIR%%/sundown/htmlcdefs.lua
+%%LUA_MODSHAREDIR%%/sundown/init.lua
+%%LUA_MODSHAREDIR%%/sundown/sdcdefs.lua
