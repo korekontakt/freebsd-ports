@@ -1407,6 +1407,7 @@
     SUBDIR += lua-pty
     SUBDIR += lua-sys
     SUBDIR += lua-sysctl
+    SUBDIR += lua-xlua
     SUBDIR += luabind
     SUBDIR += luafilesystem
     SUBDIR += luafilesystem-51
