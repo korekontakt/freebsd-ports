@@ -1405,6 +1405,7 @@
     SUBDIR += lua-penlight
     SUBDIR += lua-posix
     SUBDIR += lua-pty
+    SUBDIR += lua-sys
     SUBDIR += lua-sysctl
     SUBDIR += luabind
     SUBDIR += luafilesystem
