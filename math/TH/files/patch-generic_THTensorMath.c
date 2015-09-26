@@ -2,39 +2,15 @@ https://github.com/torch/torch7/issues/355
 
 --- generic/THTensorMath.c.orig	2015-08-19 14:44:08 UTC
 +++ generic/THTensorMath.c
-@@ -300,7 +300,7 @@ real THTensor_(minall)(THTensor *tensor)
-                   if(!(value >= theMin))
-                   {
-                     theMin = value;
--                    if (isnan(value))
-+                    if (isnan((double)value))
-                       break;
-                   });
-   return theMin;
-@@ -319,7 +319,7 @@ real THTensor_(maxall)(THTensor *tensor)
-                   if(!(value <= theMax))
-                   {
-                     theMax = value;
--                    if (isnan(value))
-+                    if (isnan((double)value))
-                       break;
-                   });
-   return theMax;
-@@ -900,7 +900,7 @@ void THTensor_(max)(THTensor *values_, T
-                          {
-                            theIndex = i;
-                            theMax = value;
--                           if (isnan(value))
-+                           if (isnan((double)value))
-                              break;
-                          }
-                        }
-@@ -937,7 +937,7 @@ void THTensor_(min)(THTensor *values_, T
-                          {
-                            theIndex = i;
-                            theMin = value;
--                           if (isnan(value))
-+                           if (isnan((double)value))
-                              break;
-                          }
-                        }
+@@ -4,6 +4,11 @@
+ 
+ #define TH_OMP_OVERHEAD_THRESHOLD 100000
+ 
++#if !defined(TH_REAL_IS_FLOAT) && !defined(TH_REAL_IS_DOUBLE)
++#undef isnan
++#define isnan(x) 0
++#endif
++
+ void THTensor_(fill)(THTensor *r_, real value)
+ {
+   TH_TENSOR_APPLY(real, r_, 
